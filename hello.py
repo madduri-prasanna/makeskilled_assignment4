@@ -1,14 +1,6 @@
-# function which return reverse of a string
-  
-def isPalindrome(s):
-    return s == s[::-1]
-  
-  
-# Driver code
-s = "malayalam"
-ans = isPalindrome(s)
-  
-if ans:
-    print("Yes")
-else:
-    print("No")
+string=input(("Enter a letter:"))  
+if(string==string[::-1]):  
+      print("The letter is a palindrome")  
+else:  
+      print("The letter is not a palindrome")  
+
